@@ -41,6 +41,7 @@ export function Home() {
   const isSubmitDisabled = !task;
 
   function handleCreateNewCycle(data: NewCycleFormData) {
+    console.log('cadê', createNewCycle)
     createNewCycle(data);
     reset();
 

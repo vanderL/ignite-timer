@@ -16,6 +16,8 @@ export function addNewCycleAction(newCycle: Cycle) {
 }
 
 export function interruptCurrentCycleAction() {
+  console.log('oi2');
+
   return {
     type: ActionTypes.INTERRUPT_CURRENT_CYCLE,
   }
